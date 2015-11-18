@@ -1,0 +1,25 @@
+:root {
+	--black: #011627;
+	--white: #FFFCF7;
+	--green: #02C39A;
+	--red: #ED2422;
+	--yellow: #F0C808;
+	--blue: #06AED5;
+	--beige: #FFF1D0;
+}
+
+.black { color: var(--black); }
+.white { color: var(--white); }
+.green { color: var(--green); }
+.red { color: var(--red); }
+.yellow { color: var(--yellow); }
+.blue { color: var(--blue); }
+.beige { color: var(--beige); }
+
+.bg-black { background-color: var(--black); }
+.bg-white { background-color: var(--white); }
+.bg-green { background-color: var(--green); }
+.bg-red { background-color: var(--red); }
+.bg-yellow { background-color: var(--yellow); }
+.bg-blue { background-color: var(--blue); }
+.bg-beige { background-color: var(--beige); }

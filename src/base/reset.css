@@ -1,0 +1,11 @@
+html {
+	font-size: 16px;
+	box-sizing: border-box;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+body { margin: 0; }
+img { max-width: 100%; }
+svg { max-height: 100%; }

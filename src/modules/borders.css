@@ -1,0 +1,32 @@
+:root {
+	--border-width: 1px;
+	--border-radius: 3px;
+}
+
+.border-box { box-sizing: border-box; }
+
+.border { border: var(--border-width) solid; }
+.border-none { border: 0; }
+
+.border-top { border-top: var(--border-width) solid; }
+.border-right { border-right: var(--border-width) solid; }
+.border-bottom { border-bottom: var(--border-width) solid; }
+.border-left { border-left: var(--border-width) solid; }
+
+.rounded { border-radius: var(--border-radius); }
+.circle  { border-radius: 50%; }
+
+.rounded-top    { border-radius: var(--border-radius) var(--border-radius) 0 0; }
+.rounded-right  { border-radius: 0 var(--border-radius) var(--border-radius) 0; }
+.rounded-bottom { border-radius: 0 0 var(--border-radius) var(--border-radius); }
+.rounded-left   { border-radius: var(--border-radius) 0 0 var(--border-radius); }
+
+.not-rounded { border-radius: 0; }
+
+.border-black { border-color: var(--black); }
+.border-white { border-color: var(--white); }
+.border-green { border-color: var(--green); }
+.border-red { border-color: var(--red); }
+.border-yellow { border-color: var(--yellow); }
+.border-blue { border-color: var(--blue); }
+.border-beige { border-color: var(--beige); }
